@@ -7,7 +7,7 @@
 - 💬 Ask me about **Java, Spring Boot, Backend Development**  
 - 📫 How to reach me: [mercia.jeno@gmail.com](mailto:mercia.jeno@gmail.com)
 
-
+---
 
 
 ---
