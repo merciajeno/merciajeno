@@ -1,6 +1,6 @@
 ## A passionate Backend Developer
 
-<img align="right" src="Developer.jpg" alt="Female Coder" width="250"/>
+<img align="right" src="hacker1.jpg" alt="Female Coder" width="250"/>
 
 - 🛠️ I’m currently working on **Java-based applications and scalable Spring Boot backend systems**  
 - 🌱 I’m currently exploring **Cybersecurity, Advanced Machine Learning, and Cloud Computing**  
