@@ -2,9 +2,9 @@
 
 <img align="right" src="hacker1.jpg" alt="Female Coder" width="250"/>
 
-- 🛠️ I’m currently working on **Java-based applications and scalable Spring Boot backend systems**  
-- 🌱 I’m currently exploring **Cybersecurity, Advanced Machine Learning, and Cloud Computing**  
-- 💬 Ask me about **Java, Spring Boot, Backend Development, and Machine Learning **  
+- 🛠️ I’m currently working on Java-based applications and scalable Spring Boot backend systems
+- 🌱 I’m currently exploring Cybersecurity, Advanced Machine Learning, and Cloud Computing
+- 💬 Ask me about Java, Spring Boot, Backend Development, and Machine Learning
 - 🤝 I love building real-world projects and collaborating with curious minds  
 - 🚀 Always excited to discuss innovative ideas or contribute to impactful open-source projects  
 - 📫 How to reach me: [mercia.jeno@gmail.com](mailto:mercia.jeno@gmail.com)
