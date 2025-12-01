@@ -42,17 +42,23 @@
 ##  GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=merciajeno&show_icons=true&theme=github_dark&hide_title=true&hide_border=true" alt="Mercia Jeno's GitHub Stats" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=merciajeno&bg_color=1e1e1e&color=9e4c98&line=5BC0BE&point=FFFFFF&area=true&hide_border=true" alt="Mercia Jeno's Contribution Graph" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=merciajeno&theme=dark&hide_border=true" alt="Mercia Jeno's Streak Stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=merciajeno&bg_color=1e1e1e&color=9e4c98&line=5BC0BE&point=FFFFFF&area=true&hide_border=true" alt="Mercia Jeno's Contribution Graph" />
-</p>
+## 🛠️ Key Skills Focus
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=merciajeno&layout=compact&theme=github_dark&hide_border=true" alt="Mercia Jeno's Top Languages" />
+  <img src="https://img.shields.io/badge/Data_Structures_%26_Algorithms-8A2BE2?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/System_Design-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A5?style=for-the-badge&logo=postgresql&logoColor=white"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=merciajeno&label=Profile%20Views&color=0e75b6&style=flat" alt="Mercia Jeno's Profile Views" />
 </p>
