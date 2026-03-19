@@ -1,0 +1,24 @@
+<svg width="600" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <rect width="600" height="40" fill="#0d0d0f"/>
+
+  <text
+    font-family="Georgia, serif"
+    font-size="14"
+    fill="#8a7a62"
+    letter-spacing="4"
+    text-anchor="middle"
+    x="300"
+    y="26"
+    opacity="0"
+  >
+    BACKEND DETECTIVE · SOFTWARE INVESTIGATOR
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="2.8s" fill="freeze"/>
+  </text>
+</svg>
