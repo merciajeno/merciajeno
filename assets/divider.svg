@@ -1,0 +1,28 @@
+<svg width="800" height="30" viewBox="0 0 800 30" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="30" fill="#0d0d0f"/>
+
+  <line x1="0" y1="15" x2="800" y2="15"
+    stroke="#3a3020" stroke-width="1"
+    stroke-dasharray="800"
+    stroke-dashoffset="800">
+    <animate attributeName="stroke-dashoffset" from="800" to="0" dur="1.5s" fill="freeze"/>
+  </line>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.3s" fill="freeze"/>
+    <polygon points="400,5 406,15 400,25 394,15" fill="none" stroke="#6b5a3a" stroke-width="0.8"/>
+    <polygon points="400,8 404,15 400,22 396,15" fill="#3a2e1a"/>
+
+    <line x1="350" y1="15" x2="388" y2="15" stroke="#6b5a3a" stroke-width="0.6"/>
+    <line x1="412" y1="15" x2="450" y2="15" stroke="#6b5a3a" stroke-width="0.6"/>
+
+    <circle cx="346" cy="15" r="2" fill="none" stroke="#6b5a3a" stroke-width="0.6"/>
+    <circle cx="454" cy="15" r="2" fill="none" stroke="#6b5a3a" stroke-width="0.6"/>
+
+    <line x1="310" y1="15" x2="340" y2="15" stroke="#3a3020" stroke-width="0.5"/>
+    <line x1="460" y1="15" x2="490" y2="15" stroke="#3a3020" stroke-width="0.5"/>
+
+    <circle cx="307" cy="15" r="1.5" fill="#3a3020"/>
+    <circle cx="493" cy="15" r="1.5" fill="#3a3020"/>
+  </g>
+</svg>
