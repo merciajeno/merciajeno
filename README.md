@@ -1,9 +1,14 @@
 <div align="center">
 
-# 🔍 Mercia Jeno
-### Backend Detective · Software Investigator
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=38&duration=1&pause=999999&color=C9B99A&center=true&vCenter=true&width=500&height=70&lines=%F0%9F%94%8D+Mercia+Jeno" alt="Mercia Jeno"/>
 
-> *"When you have eliminated the impossible, whatever remains, however improbable, must be the bug."*
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=16&duration=1&pause=999999&color=8A7A62&center=true&vCenter=true&width=500&height=30&lines=Backend+Detective+%C2%B7+Software+Investigator" alt="Backend Detective"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=14&duration=60&pause=3000&color=B8A882&center=true&vCenter=true&width=720&height=40&lines=%22When+you+eliminate+the+impossible%2C+whatever+remains+must+be+the+bug.%22" alt="Quote"/>
+
+<br/>
 
 ![Status](https://img.shields.io/badge/Status-Active%20Investigation-darkgreen?style=flat-square)
 ![Case](https://img.shields.io/badge/Current%20Case-Spring%20Boot%20Systems-8B0000?style=flat-square)
@@ -11,7 +16,7 @@
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 ## 🕵️ Agent Dossier
 
@@ -24,7 +29,7 @@
 | **Known For** | Building real-world projects, collaborating with curious minds, and contributing to open-source investigations that matter. |
 | **Reach Me** | mercia.jeno@gmail.com |
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 ## 🔬 Evidence — Languages
 > *Exhibit A: Primary tongues spoken in the field*
@@ -36,7 +41,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 ## 🧪 The Arsenal — Tools & Frameworks
 > *Exhibit B: Instruments of investigation*
@@ -51,7 +56,7 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 ## ⚙️ Field Kit — DevOps & Platforms
 > *Exhibit C: Operative's field equipment*
@@ -64,19 +69,7 @@
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
 </p>
 
----
-
-## 🧠 Case Proficiency — Key Skills
-> *Exhibit D: Investigative strengths — confidence report*
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Data_Structures_%26_Algorithms-8A2BE2?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/System_Design-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A5?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 ## 📁 Case Files — GitHub Activity
 
@@ -90,7 +83,7 @@
   <img src="https://streak-stats.demolab.com/?user=merciajeno&theme=dark&hide_border=true" alt="Mercia Jeno's Streak Stats" />
 </p>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png" width="100%"/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=merciajeno&label=Witnesses%20at%20the%20Scene&color=8B0000&style=flat" alt="Profile Views" />
@@ -98,6 +91,6 @@
 
 <div align="center">
 
-*"The game is afoot."* — S. Holmes
+<img src="https://readme-typing-svg.demolab.com?font=Special+Elite&size=13&duration=1&pause=999999&color=5A4F3C&center=true&vCenter=true&width=300&height=30&lines=%22The+game+is+afoot.%22+%E2%80%94+S.+Holmes" alt="The game is afoot"/>
 
 </div>
