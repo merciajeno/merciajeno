@@ -1,27 +1,13 @@
 <div align="center">
-
-<img src="./assets/name.svg" alt="Mercia Jeno" width="600"/>
-
-<img src="./assets/subtitle.svg" alt="Backend Detective · Software Investigator" width="600"/>
-
-<br/>
-
-> *"When you have eliminated the impossible, whatever remains, however improbable, must be the bug."*
-
-<br/>
-
-![Status](https://img.shields.io/badge/Status-Active%20Investigation-darkgreen?style=flat-square)
-![Case](https://img.shields.io/badge/Current%20Case-Spring%20Boot%20Systems-8B0000?style=flat-square)
-![Location](https://img.shields.io/badge/Based%20In-Bengaluru%2C%20India-4B0082?style=flat-square)
-
+<img src="./assets/banner.svg" width="800" alt="Mercia Jeno — Backend Detective"/>
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 ## 🕵️ Agent Dossier
 
 | Field | Details |
-|---|---|
+|:---|:---|
 | **Occupation** | Backend Developer. I investigate scalable systems — tracking down performance bottlenecks, interrogating broken APIs, and piecing together distributed architectures one clue at a time. |
 | **Current Case** | Java-based applications & scalable Spring Boot backend systems. The investigation is ongoing. |
 | **Under Study** | Cybersecurity · Advanced Machine Learning · Cloud Computing — every good detective expands their methods. |
@@ -29,7 +15,7 @@
 | **Known For** | Building real-world projects, collaborating with curious minds, and contributing to open-source investigations that matter. |
 | **Reach Me** | mercia.jeno@gmail.com |
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 ## 🔬 Evidence — Languages
 > *Exhibit A: Primary tongues spoken in the field*
@@ -41,7 +27,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 ## 🧪 The Arsenal — Tools & Frameworks
 > *Exhibit B: Instruments of investigation*
@@ -56,7 +42,7 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 ## ⚙️ Field Kit — DevOps & Platforms
 > *Exhibit C: Operative's field equipment*
@@ -69,29 +55,27 @@
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 ## 📁 Case Files — GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=merciajeno&bg_color=1e1e1e&color=9e4c98&line=5BC0BE&point=FFFFFF&area=true&hide_border=true" alt="Mercia Jeno's Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=merciajeno&bg_color=0d0d0f&color=c9b99a&line=8B6914&point=c9952a&area=true&hide_border=true" alt="Mercia Jeno's Contribution Graph" width="100%"/>
 </p>
 
 > *The evidence doesn't lie. Every commit is a clue.*
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=merciajeno&theme=dark&hide_border=true" alt="Mercia Jeno's Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=merciajeno&theme=dark&hide_border=true&background=0d0d0f&ring=8B6914&fire=c9952a&currStreakLabel=c9b99a" alt="Mercia Jeno's Streak Stats"/>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=merciajeno&label=Witnesses%20at%20the%20Scene&color=8B0000&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=merciajeno&label=Witnesses%20at%20the%20Scene&color=8B0000&style=flat" alt="Profile Views"/>
 </p>
 
 <div align="center">
-
-<img src="./assets/subtitle.svg" width="300" alt="The game is afoot"/>
 
 *"The game is afoot."* — S. Holmes
 
