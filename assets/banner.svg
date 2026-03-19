@@ -1,0 +1,242 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="800" height="420" fill="#0d0d0f"/>
+
+  <!-- fog layers -->
+  <ellipse cx="400" cy="300" rx="420" ry="120" fill="#1a1508" opacity="0.35"/>
+  <ellipse cx="150" cy="200" rx="260" ry="100" fill="#120f05" opacity="0.4"/>
+  <ellipse cx="680" cy="220" rx="200" ry="90" fill="#120f05" opacity="0.3"/>
+
+  <!-- ground fog wisps -->
+  <ellipse cx="400" cy="355" rx="380" ry="28" fill="#1e1a0a" opacity="0.5"/>
+  <ellipse cx="200" cy="358" rx="180" ry="18" fill="#1e1a0a" opacity="0.4"/>
+  <ellipse cx="620" cy="360" rx="160" ry="16" fill="#1e1a0a" opacity="0.35"/>
+
+  <!-- corner brackets -->
+  <line x1="20" y1="16" x2="80" y2="16" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="20" y1="16" x2="20" y2="56" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="720" y1="16" x2="780" y2="16" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="780" y1="16" x2="780" y2="56" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="20" y1="404" x2="80" y2="404" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="20" y1="364" x2="20" y2="404" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="720" y1="404" x2="780" y2="404" stroke="#3a3020" stroke-width="0.6"/>
+  <line x1="780" y1="364" x2="780" y2="404" stroke="#3a3020" stroke-width="0.6"/>
+
+  <!-- ══ LAMP POST (left) ══ -->
+  <rect x="118" y="120" width="6" height="240" fill="#1c1810"/>
+  <rect x="116" y="118" width="10" height="6" rx="2" fill="#2a2416"/>
+  <!-- arm -->
+  <path d="M121,124 Q148,118 148,138" fill="none" stroke="#1c1810" stroke-width="4"/>
+  <!-- lamp housing -->
+  <ellipse cx="148" cy="140" rx="10" ry="7" fill="#2a2010"/>
+  <ellipse cx="148" cy="138" rx="7" ry="4" fill="#c9952a" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.85;0.5;0.7;0.5" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- lamp glow -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#c9952a" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#c9952a" stop-opacity="0"/>
+  </radialGradient>
+  <ellipse cx="148" cy="155" rx="55" ry="45" fill="url(#glow)">
+    <animate attributeName="rx" values="55;62;55;58;55" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="45;52;45;48;45" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- post base -->
+  <rect x="112" y="356" width="18" height="8" rx="2" fill="#1c1810"/>
+
+  <!-- ══ DETECTIVE SILHOUETTE ══ -->
+  <g fill="#0f0f0a">
+
+    <!-- coat / body — long trench coat shape -->
+    <path d="
+      M370,148
+      C368,150 365,155 364,162
+      L354,165
+      C350,166 348,169 349,173
+      L352,182
+      C348,183 344,186 342,190
+      L330,240
+      C326,255 324,270 326,285
+      L322,350
+      C321,355 324,358 328,358
+      L346,358
+      C350,358 352,355 352,351
+      L350,310
+      L356,310
+      L360,351
+      C360,355 363,358 367,358
+      L380,358
+      C384,358 386,354 385,350
+      L378,285
+      C380,270 379,255 375,240
+      L366,195
+      L374,192
+      L382,195
+      L373,240
+      C369,255 368,270 370,285
+      L363,350
+      C362,354 364,358 368,358
+      L381,358
+      C385,358 388,355 387,351
+      L391,310
+      L397,310
+      L395,351
+      C394,355 397,358 401,358
+      L419,358
+      C423,358 426,355 425,350
+      L421,285
+      C423,270 421,255 417,240
+      L405,190
+      C403,186 399,183 395,182
+      L398,173
+      C399,169 397,166 393,165
+      L383,162
+      C382,155 379,150 377,148
+      Z
+    "/>
+
+    <!-- head -->
+    <ellipse cx="374" cy="128" rx="16" ry="18"/>
+
+    <!-- neck -->
+    <rect x="368" y="143" width="12" height="10" rx="2"/>
+
+    <!-- ── DEERSTALKER HAT ── -->
+    <!-- main hat dome -->
+    <path d="M352,122 Q358,100 374,98 Q390,100 396,122 Z"/>
+    <!-- hat brim front -->
+    <path d="M350,122 Q356,126 374,127 Q392,126 398,122 Q392,118 374,118 Q356,118 350,122 Z"/>
+    <!-- front peak -->
+    <path d="M350,122 Q340,120 336,125 Q342,128 350,124 Z"/>
+    <!-- back peak -->
+    <path d="M398,122 Q408,120 412,125 Q406,128 398,124 Z"/>
+    <!-- hat band line -->
+    <path d="M354,118 Q374,116 394,118" fill="none" stroke="#1a1a14" stroke-width="1.5"/>
+
+    <!-- coat lapels -->
+    <path d="M364,162 L358,185 L370,178 L374,190 L378,178 L390,185 L384,162 Z" fill="#141410"/>
+
+    <!-- pipe in hand -->
+    <path d="M390,220 Q408,215 414,208 Q418,202 415,198 Q412,194 408,197 Q406,200 408,204 Q404,208 390,218 Z"
+      fill="#2a2010"/>
+    <!-- pipe bowl -->
+    <ellipse cx="415" cy="198" rx="5" ry="7" fill="#2a2010"/>
+    <!-- pipe smoke -->
+    <path d="M415,191 Q418,184 414,178 Q410,172 414,166 Q418,160 414,154"
+      fill="none" stroke="#3a3020" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M417,188 Q422,181 418,175 Q414,169 418,163"
+      fill="none" stroke="#3a3020" stroke-width="1" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- magnifying glass in other hand -->
+    <circle cx="342" cy="218" r="18" fill="none" stroke="#0f0f0a" stroke-width="6"/>
+    <circle cx="342" cy="218" r="18" fill="none" stroke="#2a2416" stroke-width="2"/>
+    <line x1="354" y1="230" x2="366" y2="245" stroke="#0f0f0a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="354" y1="230" x2="366" y2="245" stroke="#2a2416" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- lens glint -->
+    <path d="M334,210 Q338,207 343,209" fill="none" stroke="#3a3428" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- coat tail flap -->
+    <path d="M326,285 L318,355 L335,355 L340,310 Z" fill="#0d0d08"/>
+    <path d="M421,285 L429,355 L412,355 L407,310 Z" fill="#0d0d08"/>
+
+    <!-- coat belt / button row -->
+    <rect x="366" y="200" width="4" height="4" rx="1" fill="#1a1810"/>
+    <rect x="366" y="210" width="4" height="4" rx="1" fill="#1a1810"/>
+    <rect x="366" y="220" width="4" height="4" rx="1" fill="#1a1810"/>
+
+  </g>
+
+  <!-- shadow under silhouette -->
+  <ellipse cx="374" cy="358" rx="60" ry="8" fill="#000" opacity="0.5"/>
+
+  <!-- ══ NAME TYPEWRITER ══ -->
+  <clipPath id="nc">
+    <rect x="218" y="265" width="0" height="58">
+      <animate attributeName="width" from="0" to="370" dur="2s" begin="0.8s" fill="freeze"
+        calcMode="discrete"
+        keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1"
+        values="0;32;64;96;128;160;200;232;264;296;328;360;370"/>
+    </rect>
+  </clipPath>
+
+  <!-- name clip — 11 chars, each ~30px wide at font-size 40 + letter-spacing 3 = ~33px/char, total ~363px, use 380 to be safe -->
+  <clipPath id="nc2">
+    <rect x="450" y="130" width="0" height="58">
+      <animate attributeName="width" from="0" to="380" dur="2.2s" begin="0.8s" fill="freeze"
+        calcMode="discrete"
+        keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5454;0.6363;0.7272;0.8181;0.9090;1"
+        values="0;35;70;105;140;175;210;245;280;315;350;380"/>
+    </rect>
+  </clipPath>
+  <text font-family="Georgia,'Times New Roman',serif" font-size="40" font-weight="bold"
+    fill="#e8d5b0" letter-spacing="3" x="452" y="178"
+    clip-path="url(#nc2)">MERCIA JENO</text>
+
+  <!-- cursor — matches clip steps exactly -->
+  <rect fill="#c9b99a" x="452" y="138" width="3" height="40">
+    <animate attributeName="x" from="452" to="832" dur="2.2s" begin="0.8s" fill="freeze"
+      calcMode="discrete"
+      keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5454;0.6363;0.7272;0.8181;0.9090;1"
+      values="452;487;522;557;592;627;662;697;732;767;802;832"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="3.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtitle -->
+  <text font-family="Georgia,serif" font-size="11" fill="#8a7a62"
+    letter-spacing="4" x="452" y="205" opacity="0">
+    BACKEND DETECTIVE
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
+  </text>
+  <text font-family="Georgia,serif" font-size="11" fill="#8a7a62"
+    letter-spacing="4" x="452" y="222" opacity="0">
+    SOFTWARE INVESTIGATOR
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.2s" fill="freeze"/>
+  </text>
+
+  <!-- quote -->
+  <text font-family="Georgia,serif" font-size="10" fill="#5a5040"
+    font-style="italic" x="452" y="248" opacity="0">
+    "When you eliminate the impossible,
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.6s" fill="freeze"/>
+  </text>
+  <text font-family="Georgia,serif" font-size="10" fill="#5a5040"
+    font-style="italic" x="452" y="262" opacity="0">
+    whatever remains must be the bug."
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.7s" fill="freeze"/>
+  </text>
+
+  <!-- divider -->
+  <line x1="40" y1="372" x2="760" y2="372" stroke="#2a2416" stroke-width="0.8"
+    stroke-dasharray="720" stroke-dashoffset="720">
+    <animate attributeName="stroke-dashoffset" from="720" to="0" dur="1.4s" begin="4s" fill="freeze"/>
+  </line>
+
+  <!-- badges -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="4.4s" fill="freeze"/>
+    <rect x="96" y="384" width="184" height="24" rx="3" fill="#0d2b0d" stroke="#1a5c1a" stroke-width="0.8"/>
+    <circle cx="113" cy="396" r="3.5" fill="#2ea44f"/>
+    <text font-family="Georgia,serif" font-size="10.5" fill="#4caf50" x="122" y="400" letter-spacing="0.5">Active Investigation</text>
+
+    <rect x="296" y="384" width="172" height="24" rx="3" fill="#1f0a0a" stroke="#5c1a1a" stroke-width="0.8"/>
+    <text font-family="Georgia,serif" font-size="10.5" fill="#a04040" x="308" y="400" letter-spacing="0.5">Spring Boot Systems</text>
+
+    <rect x="484" y="384" width="150" height="24" rx="3" fill="#0d0d2b" stroke="#2a2a6b" stroke-width="0.8"/>
+    <text font-family="Georgia,serif" font-size="10.5" fill="#6060c0" x="496" y="400" letter-spacing="0.5">Bengaluru, India</text>
+  </g>
+
+  <!-- bottom ornament -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="5s" fill="freeze"/>
+    <polygon points="400,410 406,418 400,426 394,418" fill="none" stroke="#4a3e22" stroke-width="0.7"/>
+    <line x1="370" y1="418" x2="390" y2="418" stroke="#4a3e22" stroke-width="0.5"/>
+    <line x1="410" y1="418" x2="430" y2="418" stroke="#4a3e22" stroke-width="0.5"/>
+    <circle cx="367" cy="418" r="1.5" fill="#4a3e22"/>
+    <circle cx="433" cy="418" r="1.5" fill="#4a3e22"/>
+  </g>
+
+</svg>
