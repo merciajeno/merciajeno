@@ -1,242 +1,219 @@
-<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
-
-  <rect width="800" height="420" fill="#0d0d0f"/>
-
-  <!-- fog layers -->
-  <ellipse cx="400" cy="300" rx="420" ry="120" fill="#1a1508" opacity="0.35"/>
-  <ellipse cx="150" cy="200" rx="260" ry="100" fill="#120f05" opacity="0.4"/>
-  <ellipse cx="680" cy="220" rx="200" ry="90" fill="#120f05" opacity="0.3"/>
-
-  <!-- ground fog wisps -->
-  <ellipse cx="400" cy="355" rx="380" ry="28" fill="#1e1a0a" opacity="0.5"/>
-  <ellipse cx="200" cy="358" rx="180" ry="18" fill="#1e1a0a" opacity="0.4"/>
-  <ellipse cx="620" cy="360" rx="160" ry="16" fill="#1e1a0a" opacity="0.35"/>
-
-  <!-- corner brackets -->
-  <line x1="20" y1="16" x2="80" y2="16" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="20" y1="16" x2="20" y2="56" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="720" y1="16" x2="780" y2="16" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="780" y1="16" x2="780" y2="56" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="20" y1="404" x2="80" y2="404" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="20" y1="364" x2="20" y2="404" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="720" y1="404" x2="780" y2="404" stroke="#3a3020" stroke-width="0.6"/>
-  <line x1="780" y1="364" x2="780" y2="404" stroke="#3a3020" stroke-width="0.6"/>
-
-  <!-- ══ LAMP POST (left) ══ -->
-  <rect x="118" y="120" width="6" height="240" fill="#1c1810"/>
-  <rect x="116" y="118" width="10" height="6" rx="2" fill="#2a2416"/>
-  <!-- arm -->
-  <path d="M121,124 Q148,118 148,138" fill="none" stroke="#1c1810" stroke-width="4"/>
-  <!-- lamp housing -->
-  <ellipse cx="148" cy="140" rx="10" ry="7" fill="#2a2010"/>
-  <ellipse cx="148" cy="138" rx="7" ry="4" fill="#c9952a" opacity="0.5">
-    <animate attributeName="opacity" values="0.5;0.85;0.5;0.7;0.5" dur="3s" repeatCount="indefinite"/>
-  </ellipse>
-  <!-- lamp glow -->
-  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#c9952a" stop-opacity="0.25"/>
-    <stop offset="100%" stop-color="#c9952a" stop-opacity="0"/>
+<svg width="100%" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    @keyframes scanpulse { 0%,100%{opacity:0.18} 50%{opacity:0.32} }
+    @keyframes fadein { from{opacity:0} to{opacity:1} }
+    @keyframes typewrite { 0%{clip-path:inset(0 100% 0 0)} 100%{clip-path:inset(0 0% 0 0)} }
+    @keyframes drift2 { 0%{transform:translateY(0px)} 100%{transform:translateY(-9px)} }
+    @keyframes drift3 { 0%{transform:translateY(0px)} 100%{transform:translateY(-4px)} }
+    @keyframes rain0  { 0%{transform:translateY(-20px)} 100%{transform:translateY(360px)} }
+    @keyframes rain1  { 0%{transform:translateY(-40px)} 100%{transform:translateY(360px)} }
+    @keyframes rain2  { 0%{transform:translateY(-60px)} 100%{transform:translateY(360px)} }
+    @keyframes rain3  { 0%{transform:translateY(-10px)} 100%{transform:translateY(360px)} }
+    @keyframes rain4  { 0%{transform:translateY(-80px)} 100%{transform:translateY(360px)} }
+    @keyframes rain5  { 0%{transform:translateY(-30px)} 100%{transform:translateY(360px)} }
+    @keyframes rain6  { 0%{transform:translateY(-55px)} 100%{transform:translateY(360px)} }
+    @keyframes rain7  { 0%{transform:translateY(-70px)} 100%{transform:translateY(360px)} }
+    @keyframes rain8  { 0%{transform:translateY(-15px)} 100%{transform:translateY(360px)} }
+    @keyframes rain9  { 0%{transform:translateY(-90px)} 100%{transform:translateY(360px)} }
+    @keyframes rain10 { 0%{transform:translateY(-25px)} 100%{transform:translateY(360px)} }
+    @keyframes rain11 { 0%{transform:translateY(-45px)} 100%{transform:translateY(360px)} }
+    @keyframes rain12 { 0%{transform:translateY(-65px)} 100%{transform:translateY(360px)} }
+    @keyframes rain13 { 0%{transform:translateY(-35px)} 100%{transform:translateY(360px)} }
+    @keyframes rain14 { 0%{transform:translateY(-50px)} 100%{transform:translateY(360px)} }
+    @keyframes rain15 { 0%{transform:translateY(-75px)} 100%{transform:translateY(360px)} }
+    @keyframes rain16 { 0%{transform:translateY(-20px)} 100%{transform:translateY(360px)} }
+    @keyframes rain17 { 0%{transform:translateY(-85px)} 100%{transform:translateY(360px)} }
+    @keyframes rain18 { 0%{transform:translateY(-42px)} 100%{transform:translateY(360px)} }
+    @keyframes rain19 { 0%{transform:translateY(-18px)} 100%{transform:translateY(360px)} }
+    @keyframes rain20 { 0%{transform:translateY(-60px)} 100%{transform:translateY(360px)} }
+    @keyframes rain21 { 0%{transform:translateY(-33px)} 100%{transform:translateY(360px)} }
+    @keyframes rain22 { 0%{transform:translateY(-77px)} 100%{transform:translateY(360px)} }
+    @keyframes rain23 { 0%{transform:translateY(-12px)} 100%{transform:translateY(360px)} }
+    @keyframes rain24 { 0%{transform:translateY(-55px)} 100%{transform:translateY(360px)} }
+    .cursor { animation: blink 1s step-end infinite; }
+    .scan   { animation: scanpulse 2.5s ease-in-out infinite; }
+    .tw     { animation: typewrite 1.8s steps(12,end) 0.3s both; }
+    .fi1 { animation: fadein 0.6s 2.1s both; }
+    .fi2 { animation: fadein 0.6s 3.7s both; }
+    .fi3 { animation: fadein 0.6s 4.8s both; }
+    .fi4 { animation: fadein 0.6s 5.2s both; }
+    .fi5 { animation: fadein 0.6s 5.5s both; }
+    .drift2 { animation: drift2 5s ease-in-out infinite alternate; }
+    .drift3 { animation: drift3 3.5s ease-in-out infinite alternate; }
+    .r0  { animation: rain0  3.1s linear 0.0s infinite; }
+    .r1  { animation: rain1  2.8s linear 0.4s infinite; }
+    .r2  { animation: rain2  3.4s linear 0.1s infinite; }
+    .r3  { animation: rain3  2.6s linear 0.7s infinite; }
+    .r4  { animation: rain4  3.0s linear 0.2s infinite; }
+    .r5  { animation: rain5  2.9s linear 0.9s infinite; }
+    .r6  { animation: rain6  3.3s linear 0.3s infinite; }
+    .r7  { animation: rain7  2.7s linear 0.6s infinite; }
+    .r8  { animation: rain8  3.1s linear 1.1s infinite; }
+    .r9  { animation: rain9  2.8s linear 0.5s infinite; }
+    .r10 { animation: rain10 3.5s linear 0.0s infinite; }
+    .r11 { animation: rain11 2.6s linear 0.8s infinite; }
+    .r12 { animation: rain12 3.2s linear 0.15s infinite; }
+    .r13 { animation: rain13 2.9s linear 1.3s infinite; }
+    .r14 { animation: rain14 3.0s linear 0.35s infinite; }
+    .r15 { animation: rain15 2.7s linear 0.95s infinite; }
+    .r16 { animation: rain16 3.4s linear 0.55s infinite; }
+    .r17 { animation: rain17 2.8s linear 1.2s infinite; }
+    .r18 { animation: rain18 3.1s linear 0.25s infinite; }
+    .r19 { animation: rain19 2.6s linear 0.75s infinite; }
+    .r20 { animation: rain20 3.3s linear 0.45s infinite; }
+    .r21 { animation: rain21 2.9s linear 1.05s infinite; }
+    .r22 { animation: rain22 2.7s linear 0.15s infinite; }
+    .r23 { animation: rain23 3.0s linear 0.85s infinite; }
+    .r24 { animation: rain24 3.2s linear 0.60s infinite; }
+  </style>
+  <radialGradient id="lensGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#BA7517" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#BA7517" stop-opacity="0"/>
   </radialGradient>
-  <ellipse cx="148" cy="155" rx="55" ry="45" fill="url(#glow)">
-    <animate attributeName="rx" values="55;62;55;58;55" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="ry" values="45;52;45;48;45" dur="3s" repeatCount="indefinite"/>
-  </ellipse>
-  <!-- post base -->
-  <rect x="112" y="356" width="18" height="8" rx="2" fill="#1c1810"/>
-
-  <!-- ══ DETECTIVE SILHOUETTE ══ -->
-  <g fill="#0f0f0a">
-
-    <!-- coat / body — long trench coat shape -->
-    <path d="
-      M370,148
-      C368,150 365,155 364,162
-      L354,165
-      C350,166 348,169 349,173
-      L352,182
-      C348,183 344,186 342,190
-      L330,240
-      C326,255 324,270 326,285
-      L322,350
-      C321,355 324,358 328,358
-      L346,358
-      C350,358 352,355 352,351
-      L350,310
-      L356,310
-      L360,351
-      C360,355 363,358 367,358
-      L380,358
-      C384,358 386,354 385,350
-      L378,285
-      C380,270 379,255 375,240
-      L366,195
-      L374,192
-      L382,195
-      L373,240
-      C369,255 368,270 370,285
-      L363,350
-      C362,354 364,358 368,358
-      L381,358
-      C385,358 388,355 387,351
-      L391,310
-      L397,310
-      L395,351
-      C394,355 397,358 401,358
-      L419,358
-      C423,358 426,355 425,350
-      L421,285
-      C423,270 421,255 417,240
-      L405,190
-      C403,186 399,183 395,182
-      L398,173
-      C399,169 397,166 393,165
-      L383,162
-      C382,155 379,150 377,148
-      Z
-    "/>
-
-    <!-- head -->
-    <ellipse cx="374" cy="128" rx="16" ry="18"/>
-
-    <!-- neck -->
-    <rect x="368" y="143" width="12" height="10" rx="2"/>
-
-    <!-- ── DEERSTALKER HAT ── -->
-    <!-- main hat dome -->
-    <path d="M352,122 Q358,100 374,98 Q390,100 396,122 Z"/>
-    <!-- hat brim front -->
-    <path d="M350,122 Q356,126 374,127 Q392,126 398,122 Q392,118 374,118 Q356,118 350,122 Z"/>
-    <!-- front peak -->
-    <path d="M350,122 Q340,120 336,125 Q342,128 350,124 Z"/>
-    <!-- back peak -->
-    <path d="M398,122 Q408,120 412,125 Q406,128 398,124 Z"/>
-    <!-- hat band line -->
-    <path d="M354,118 Q374,116 394,118" fill="none" stroke="#1a1a14" stroke-width="1.5"/>
-
-    <!-- coat lapels -->
-    <path d="M364,162 L358,185 L370,178 L374,190 L378,178 L390,185 L384,162 Z" fill="#141410"/>
-
-    <!-- pipe in hand -->
-    <path d="M390,220 Q408,215 414,208 Q418,202 415,198 Q412,194 408,197 Q406,200 408,204 Q404,208 390,218 Z"
-      fill="#2a2010"/>
-    <!-- pipe bowl -->
-    <ellipse cx="415" cy="198" rx="5" ry="7" fill="#2a2010"/>
-    <!-- pipe smoke -->
-    <path d="M415,191 Q418,184 414,178 Q410,172 414,166 Q418,160 414,154"
-      fill="none" stroke="#3a3020" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M417,188 Q422,181 418,175 Q414,169 418,163"
-      fill="none" stroke="#3a3020" stroke-width="1" stroke-linecap="round" opacity="0.4">
-      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- magnifying glass in other hand -->
-    <circle cx="342" cy="218" r="18" fill="none" stroke="#0f0f0a" stroke-width="6"/>
-    <circle cx="342" cy="218" r="18" fill="none" stroke="#2a2416" stroke-width="2"/>
-    <line x1="354" y1="230" x2="366" y2="245" stroke="#0f0f0a" stroke-width="6" stroke-linecap="round"/>
-    <line x1="354" y1="230" x2="366" y2="245" stroke="#2a2416" stroke-width="2.5" stroke-linecap="round"/>
-    <!-- lens glint -->
-    <path d="M334,210 Q338,207 343,209" fill="none" stroke="#3a3428" stroke-width="1.2" stroke-linecap="round"/>
-
-    <!-- coat tail flap -->
-    <path d="M326,285 L318,355 L335,355 L340,310 Z" fill="#0d0d08"/>
-    <path d="M421,285 L429,355 L412,355 L407,310 Z" fill="#0d0d08"/>
-
-    <!-- coat belt / button row -->
-    <rect x="366" y="200" width="4" height="4" rx="1" fill="#1a1810"/>
-    <rect x="366" y="210" width="4" height="4" rx="1" fill="#1a1810"/>
-    <rect x="366" y="220" width="4" height="4" rx="1" fill="#1a1810"/>
-
-  </g>
-
-  <!-- shadow under silhouette -->
-  <ellipse cx="374" cy="358" rx="60" ry="8" fill="#000" opacity="0.5"/>
-
-  <!-- ══ NAME TYPEWRITER ══ -->
-  <clipPath id="nc">
-    <rect x="218" y="265" width="0" height="58">
-      <animate attributeName="width" from="0" to="370" dur="2s" begin="0.8s" fill="freeze"
-        calcMode="discrete"
-        keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1"
-        values="0;32;64;96;128;160;200;232;264;296;328;360;370"/>
-    </rect>
+  <radialGradient id="lensTint" cx="40%" cy="35%" r="60%">
+    <stop offset="0%" stop-color="#E6F1FB" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#042C53" stop-opacity="0.08"/>
+  </radialGradient>
+  <clipPath id="lensClip">
+    <circle cx="258" cy="168" r="68"/>
   </clipPath>
-
-  <!-- name clip — 11 chars, each ~30px wide at font-size 40 + letter-spacing 3 = ~33px/char, total ~363px, use 380 to be safe -->
-  <clipPath id="nc2">
-    <rect x="450" y="130" width="0" height="58">
-      <animate attributeName="width" from="0" to="380" dur="2.2s" begin="0.8s" fill="freeze"
-        calcMode="discrete"
-        keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5454;0.6363;0.7272;0.8181;0.9090;1"
-        values="0;35;70;105;140;175;210;245;280;315;350;380"/>
-    </rect>
+  <clipPath id="bgClip">
+    <rect width="680" height="340"/>
   </clipPath>
-  <text font-family="Georgia,'Times New Roman',serif" font-size="40" font-weight="bold"
-    fill="#e8d5b0" letter-spacing="3" x="452" y="178"
-    clip-path="url(#nc2)">MERCIA JENO</text>
+</defs>
 
-  <!-- cursor — matches clip steps exactly -->
-  <rect fill="#c9b99a" x="452" y="138" width="3" height="40">
-    <animate attributeName="x" from="452" to="832" dur="2.2s" begin="0.8s" fill="freeze"
-      calcMode="discrete"
-      keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5454;0.6363;0.7272;0.8181;0.9090;1"
-      values="452;487;522;557;592;627;662;697;732;767;802;832"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="3.1s" repeatCount="indefinite"/>
-  </rect>
+<rect width="680" height="340" fill="#0d0e10"/>
 
-  <!-- subtitle -->
-  <text font-family="Georgia,serif" font-size="11" fill="#8a7a62"
-    letter-spacing="4" x="452" y="205" opacity="0">
-    BACKEND DETECTIVE
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
-  </text>
-  <text font-family="Georgia,serif" font-size="11" fill="#8a7a62"
-    letter-spacing="4" x="452" y="222" opacity="0">
-    SOFTWARE INVESTIGATOR
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.2s" fill="freeze"/>
-  </text>
+<g opacity="0.04" stroke="#8a7a62" stroke-width="0.5">
+  <line x1="0" y1="85" x2="680" y2="85"/>
+  <line x1="0" y1="170" x2="680" y2="170"/>
+  <line x1="0" y1="255" x2="680" y2="255"/>
+  <line x1="170" y1="0" x2="170" y2="340"/>
+  <line x1="340" y1="0" x2="340" y2="340"/>
+  <line x1="510" y1="0" x2="510" y2="340"/>
+</g>
 
-  <!-- quote -->
-  <text font-family="Georgia,serif" font-size="10" fill="#5a5040"
-    font-style="italic" x="452" y="248" opacity="0">
-    "When you eliminate the impossible,
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.6s" fill="freeze"/>
-  </text>
-  <text font-family="Georgia,serif" font-size="10" fill="#5a5040"
-    font-style="italic" x="452" y="262" opacity="0">
-    whatever remains must be the bug."
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.7s" fill="freeze"/>
-  </text>
+<g clip-path="url(#bgClip)">
+  <line class="r0"  x1="48"  y1="0" x2="45"  y2="18" stroke="#5DCAA5" stroke-width="1"   opacity="0.18"/>
+  <line class="r1"  x1="72"  y1="0" x2="69"  y2="14" stroke="#7F77DD" stroke-width="0.7" opacity="0.15"/>
+  <line class="r2"  x1="105" y1="0" x2="102" y2="16" stroke="#5DCAA5" stroke-width="0.8" opacity="0.14"/>
+  <line class="r3"  x1="140" y1="0" x2="137" y2="18" stroke="#888780" stroke-width="0.6" opacity="0.12"/>
+  <line class="r4"  x1="165" y1="0" x2="162" y2="14" stroke="#EF9F27" stroke-width="0.7" opacity="0.13"/>
+  <line class="r5"  x1="200" y1="0" x2="197" y2="16" stroke="#5DCAA5" stroke-width="0.8" opacity="0.15"/>
+  <line class="r6"  x1="230" y1="0" x2="227" y2="18" stroke="#7F77DD" stroke-width="0.6" opacity="0.12"/>
+  <line class="r7"  x1="270" y1="0" x2="267" y2="14" stroke="#888780" stroke-width="0.7" opacity="0.13"/>
+  <line class="r8"  x1="305" y1="0" x2="302" y2="16" stroke="#5DCAA5" stroke-width="0.9" opacity="0.16"/>
+  <line class="r9"  x1="340" y1="0" x2="337" y2="18" stroke="#EF9F27" stroke-width="0.6" opacity="0.11"/>
+  <line class="r10" x1="375" y1="0" x2="372" y2="14" stroke="#7F77DD" stroke-width="0.8" opacity="0.14"/>
+  <line class="r11" x1="410" y1="0" x2="407" y2="16" stroke="#5DCAA5" stroke-width="0.7" opacity="0.15"/>
+  <line class="r12" x1="445" y1="0" x2="442" y2="18" stroke="#888780" stroke-width="0.6" opacity="0.12"/>
+  <line class="r13" x1="478" y1="0" x2="475" y2="14" stroke="#EF9F27" stroke-width="0.8" opacity="0.13"/>
+  <line class="r14" x1="510" y1="0" x2="507" y2="16" stroke="#5DCAA5" stroke-width="0.7" opacity="0.14"/>
+  <line class="r15" x1="545" y1="0" x2="542" y2="18" stroke="#7F77DD" stroke-width="0.9" opacity="0.15"/>
+  <line class="r16" x1="578" y1="0" x2="575" y2="14" stroke="#888780" stroke-width="0.6" opacity="0.12"/>
+  <line class="r17" x1="612" y1="0" x2="609" y2="16" stroke="#5DCAA5" stroke-width="0.7" opacity="0.14"/>
+  <line class="r18" x1="642" y1="0" x2="639" y2="18" stroke="#EF9F27" stroke-width="0.8" opacity="0.13"/>
+  <line class="r19" x1="58"  y1="0" x2="55"  y2="14" stroke="#7F77DD" stroke-width="0.6" opacity="0.11"/>
+  <line class="r20" x1="118" y1="0" x2="115" y2="16" stroke="#888780" stroke-width="0.7" opacity="0.12"/>
+  <line class="r21" x1="188" y1="0" x2="185" y2="14" stroke="#5DCAA5" stroke-width="0.8" opacity="0.14"/>
+  <line class="r22" x1="255" y1="0" x2="252" y2="18" stroke="#EF9F27" stroke-width="0.6" opacity="0.11"/>
+  <line class="r23" x1="390" y1="0" x2="387" y2="16" stroke="#7F77DD" stroke-width="0.7" opacity="0.13"/>
+  <line class="r24" x1="558" y1="0" x2="555" y2="14" stroke="#5DCAA5" stroke-width="0.8" opacity="0.14"/>
+</g>
 
-  <!-- divider -->
-  <line x1="40" y1="372" x2="760" y2="372" stroke="#2a2416" stroke-width="0.8"
-    stroke-dasharray="720" stroke-dashoffset="720">
-    <animate attributeName="stroke-dashoffset" from="720" to="0" dur="1.4s" begin="4s" fill="freeze"/>
-  </line>
+<g stroke="#2a2416" stroke-width="0.8" fill="none" opacity="0.8">
+  <polyline points="18,18 18,40 40,40"/>
+  <polyline points="640,18 640,40 662,40"/>
+  <polyline points="18,322 18,300 40,300"/>
+  <polyline points="640,322 640,300 662,300"/>
+</g>
 
-  <!-- badges -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="4.4s" fill="freeze"/>
-    <rect x="96" y="384" width="184" height="24" rx="3" fill="#0d2b0d" stroke="#1a5c1a" stroke-width="0.8"/>
-    <circle cx="113" cy="396" r="3.5" fill="#2ea44f"/>
-    <text font-family="Georgia,serif" font-size="10.5" fill="#4caf50" x="122" y="400" letter-spacing="0.5">Active Investigation</text>
+<g class="drift2" opacity="0.26" transform="translate(488,25)">
+  <rect width="158" height="74" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
+  <text font-family="monospace" font-size="9.5" fill="#E24B4A" x="10" y="17">NullPointerException</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="31">  at Service.java:247</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="45">  at Filter.java:89</text>
+  <text font-family="monospace" font-size="9.5" fill="#EF9F27" x="10" y="59">&#x2192; Suspect: null check</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="73">  missing on line 241</text>
+</g>
 
-    <rect x="296" y="384" width="172" height="24" rx="3" fill="#1f0a0a" stroke="#5c1a1a" stroke-width="0.8"/>
-    <text font-family="Georgia,serif" font-size="10.5" fill="#a04040" x="308" y="400" letter-spacing="0.5">Spring Boot Systems</text>
+<g class="drift3" opacity="0.24" transform="translate(28,220)">
+  <rect width="170" height="82" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="17">// TODO: investigate</text>
+  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="31">SELECT * FROM logs</text>
+  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="45">WHERE suspicious = 1</text>
+  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="59">ORDER BY timestamp</text>
+  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="73">LIMIT 42;</text>
+</g>
 
-    <rect x="484" y="384" width="150" height="24" rx="3" fill="#0d0d2b" stroke="#2a2a6b" stroke-width="0.8"/>
-    <text font-family="Georgia,serif" font-size="10.5" fill="#6060c0" x="496" y="400" letter-spacing="0.5">Bengaluru, India</text>
-  </g>
+<g class="drift2" opacity="0.22" transform="translate(498,240)">
+  <rect width="152" height="72" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
+  <text font-family="monospace" font-size="9.5" fill="#EF9F27" x="10" y="17">WARN  [2024-03-15]</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="31">Heap: 94% used</text>
+  <text font-family="monospace" font-size="9.5" fill="#E24B4A" x="10" y="45">ERROR timeout 30s</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="59">Thread: pool-1</text>
+  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="73">deadlock suspected</text>
+</g>
 
-  <!-- bottom ornament -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="5s" fill="freeze"/>
-    <polygon points="400,410 406,418 400,426 394,418" fill="none" stroke="#4a3e22" stroke-width="0.7"/>
-    <line x1="370" y1="418" x2="390" y2="418" stroke="#4a3e22" stroke-width="0.5"/>
-    <line x1="410" y1="418" x2="430" y2="418" stroke="#4a3e22" stroke-width="0.5"/>
-    <circle cx="367" cy="418" r="1.5" fill="#4a3e22"/>
-    <circle cx="433" cy="418" r="1.5" fill="#4a3e22"/>
-  </g>
+<circle cx="258" cy="168" r="92" fill="url(#lensGlow)" class="scan"/>
+<line x1="318" y1="228" x2="368" y2="282" stroke="#3a3020" stroke-width="9" stroke-linecap="round"/>
+<line x1="318" y1="228" x2="368" y2="282" stroke="#2a2416" stroke-width="6" stroke-linecap="round"/>
+<line x1="320" y1="226" x2="366" y2="278" stroke="#5a4a30" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<circle cx="258" cy="168" r="78" fill="none" stroke="#5a4a30" stroke-width="5"/>
+<circle cx="258" cy="168" r="78" fill="none" stroke="#3a3020" stroke-width="8"/>
+<circle cx="258" cy="168" r="75" fill="none" stroke="#7a6840" stroke-width="1.5" opacity="0.5"/>
+<circle cx="258" cy="168" r="70" fill="#0d1520" opacity="0.85"/>
+<circle cx="258" cy="168" r="70" fill="url(#lensTint)"/>
+
+<g clip-path="url(#lensClip)" opacity="0.55">
+  <text font-family="monospace" font-size="10.5" fill="#5DCAA5" x="195" y="120">function solve(</text>
+  <text font-family="monospace" font-size="10.5" fill="#E8D5B0" x="195" y="136">  mystery) {</text>
+  <text font-family="monospace" font-size="10.5" fill="#7F77DD" x="195" y="152">  const trail =</text>
+  <text font-family="monospace" font-size="10.5" fill="#7F77DD" x="195" y="168">    inspect(all);</text>
+  <text font-family="monospace" font-size="10.5" fill="#EF9F27" x="195" y="184">  // &#x2190; found it</text>
+  <text font-family="monospace" font-size="10.5" fill="#E24B4A" x="195" y="200">  return culprit;</text>
+  <text font-family="monospace" font-size="10.5" fill="#888780" x="195" y="216">}</text>
+</g>
+
+<ellipse cx="228" cy="140" rx="12" ry="6" fill="#E6F1FB" opacity="0.09" transform="rotate(-30 228 140)"/>
+<line x1="188" y1="168" x2="328" y2="168" stroke="#EF9F27" stroke-width="0.8" opacity="0.35" class="scan"/>
+
+<rect x="340" y="110" width="295" height="170" rx="6" fill="#111418" stroke="#2a2e38" stroke-width="0.8"/>
+<rect x="340" y="110" width="295" height="22" rx="6" fill="#1c2028"/>
+<rect x="340" y="122" width="295" height="10" rx="0" fill="#1c2028"/>
+<circle cx="358" cy="121" r="4" fill="#E24B4A" opacity="0.7"/>
+<circle cx="374" cy="121" r="4" fill="#EF9F27" opacity="0.7"/>
+<circle cx="390" cy="121" r="4" fill="#5DCAA5" opacity="0.7"/>
+<text font-family="monospace" font-size="9" fill="#5a5a6a" x="487" y="125" text-anchor="middle">investigator.sh</text>
+
+<text font-family="monospace" font-size="11" fill="#5DCAA5" x="358" y="155"><tspan class="fi1">$ whoami</tspan></text>
+<g class="tw">
+  <text font-family="monospace" font-size="22" font-weight="bold" fill="#E8D5B0" x="358" y="187" letter-spacing="1">MERCIA JENO</text>
+</g>
+<text font-family="monospace" font-size="11" fill="#5a5a6a" x="358" y="205"><tspan class="fi2">$ cat role.txt</tspan></text>
+<text font-family="monospace" font-size="10.5" fill="#7F77DD" x="358" y="221"><tspan class="fi3">Backend Detective</tspan></text>
+<text font-family="monospace" font-size="10.5" fill="#888780" x="358" y="236"><tspan class="fi4">Software Investigator · Spring Boot</tspan></text>
+<text font-family="monospace" font-size="10.5" fill="#5DCAA5" x="358" y="252"><tspan class="fi5">Bengaluru, India</tspan></text>
+<rect x="358" y="256" width="8" height="11" fill="#5DCAA5" class="cursor"/>
+
+<line x1="40" y1="308" x2="640" y2="308" stroke="#2a2416" stroke-width="0.6" opacity="0.6"/>
+
+<g class="fi4">
+  <rect x="40" y="317" width="90" height="16" rx="3" fill="#0d2b0d" stroke="#1a5c1a" stroke-width="0.6"/>
+  <circle cx="52" cy="325" r="3" fill="#2ea44f"/>
+  <text font-family="monospace" font-size="8.5" fill="#4caf50" x="60" y="328">Active</text>
+
+  <rect x="140" y="317" width="118" height="16" rx="3" fill="#1f0a0a" stroke="#5c1a1a" stroke-width="0.6"/>
+  <text font-family="monospace" font-size="8.5" fill="#E24B4A" x="152" y="328">Spring Boot</text>
+
+  <rect x="268" y="317" width="148" height="16" rx="3" fill="#1a1408" stroke="#4a3810" stroke-width="0.6"/>
+  <text font-family="monospace" font-size="8.5" fill="#EF9F27" x="280" y="328">Bengaluru, India</text>
+</g>
+
+<g opacity="0.35">
+  <polygon points="340,322 344,328 340,334 336,328" fill="none" stroke="#4a3e22" stroke-width="0.6"/>
+</g>
 
 </svg>
