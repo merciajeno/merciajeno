@@ -5,8 +5,6 @@
     @keyframes scanpulse { 0%,100%{opacity:0.18} 50%{opacity:0.32} }
     @keyframes fadein { from{opacity:0} to{opacity:1} }
     @keyframes typewrite { 0%{clip-path:inset(0 100% 0 0)} 100%{clip-path:inset(0 0% 0 0)} }
-    @keyframes drift2 { 0%{transform:translateY(0px)} 100%{transform:translateY(-9px)} }
-    @keyframes drift3 { 0%{transform:translateY(0px)} 100%{transform:translateY(-4px)} }
     @keyframes rain0  { 0%{transform:translateY(-20px)} 100%{transform:translateY(360px)} }
     @keyframes rain1  { 0%{transform:translateY(-40px)} 100%{transform:translateY(360px)} }
     @keyframes rain2  { 0%{transform:translateY(-60px)} 100%{transform:translateY(360px)} }
@@ -40,8 +38,6 @@
     .fi3 { animation: fadein 0.6s 4.8s both; }
     .fi4 { animation: fadein 0.6s 5.2s both; }
     .fi5 { animation: fadein 0.6s 5.5s both; }
-    .drift2 { animation: drift2 5s ease-in-out infinite alternate; }
-    .drift3 { animation: drift3 3.5s ease-in-out infinite alternate; }
     .r0  { animation: rain0  3.1s linear 0.0s infinite; }
     .r1  { animation: rain1  2.8s linear 0.4s infinite; }
     .r2  { animation: rain2  3.4s linear 0.1s infinite; }
@@ -128,33 +124,6 @@
   <polyline points="640,18 640,40 662,40"/>
   <polyline points="18,322 18,300 40,300"/>
   <polyline points="640,322 640,300 662,300"/>
-</g>
-
-<g class="drift2" opacity="0.26" transform="translate(488,25)">
-  <rect width="158" height="74" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
-  <text font-family="monospace" font-size="9.5" fill="#E24B4A" x="10" y="17">NullPointerException</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="31">  at Service.java:247</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="45">  at Filter.java:89</text>
-  <text font-family="monospace" font-size="9.5" fill="#EF9F27" x="10" y="59">&#x2192; Suspect: null check</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="73">  missing on line 241</text>
-</g>
-
-<g class="drift3" opacity="0.24" transform="translate(28,220)">
-  <rect width="170" height="82" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="17">// TODO: investigate</text>
-  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="31">SELECT * FROM logs</text>
-  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="45">WHERE suspicious = 1</text>
-  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="59">ORDER BY timestamp</text>
-  <text font-family="monospace" font-size="9.5" fill="#5DCAA5" x="10" y="73">LIMIT 42;</text>
-</g>
-
-<g class="drift2" opacity="0.22" transform="translate(498,240)">
-  <rect width="152" height="72" rx="4" fill="#1a1c20" stroke="#2a3040" stroke-width="0.6"/>
-  <text font-family="monospace" font-size="9.5" fill="#EF9F27" x="10" y="17">WARN  [2024-03-15]</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="31">Heap: 94% used</text>
-  <text font-family="monospace" font-size="9.5" fill="#E24B4A" x="10" y="45">ERROR timeout 30s</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="59">Thread: pool-1</text>
-  <text font-family="monospace" font-size="9.5" fill="#888780" x="10" y="73">deadlock suspected</text>
 </g>
 
 <circle cx="258" cy="168" r="92" fill="url(#lensGlow)" class="scan"/>
