@@ -10,8 +10,8 @@
 |:---|:---|
 | **Occupation** | Backend Developer. I investigate scalable systems — tracking down performance bottlenecks, interrogating broken APIs, and piecing together distributed architectures one clue at a time. |
 | **Current Case** | Java-based applications & scalable Spring Boot backend systems. The investigation is ongoing. |
-| **Under Study** | Cybersecurity · Advanced Machine Learning · Cloud Computing — every good detective expands their methods. |
-| **Specialisms** | Java · Spring Boot · Backend Dev · Machine Learning · System Design |
+| **Under Study** | · System Design  · Cybersecurity · Hacking · Cloud Computing — every good detective expands their methods. |
+| **Specialisms** | Java · Spring Boot · Backend Dev  |
 | **Known For** | Building real-world projects, collaborating with curious minds, and contributing to open-source investigations that matter. |
 | **Reach Me** | mercia.jeno@gmail.com |
 
